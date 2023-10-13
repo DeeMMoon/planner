@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/planner_config/pom.xml" />
         <option value="$PROJECT_DIR$/planner_gateway/pom.xml" />
         <option value="$PROJECT_DIR$/planner-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/planner_todo/pom.xml" />
+        <option value="$PROJECT_DIR$/planner-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/planner-users/pom.xml" />
       </list>
     </option>
   </component>

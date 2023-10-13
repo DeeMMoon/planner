@@ -3,6 +3,9 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/planner-entity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/planner-todo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/planner-users" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/planner-utils" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/planner_server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tmp/git-config" vcs="Git" />
   </component>

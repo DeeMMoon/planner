@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9e85634-63ab-48e8-a312-a169e781120c" name="Changes" comment="add entity module">
+      <change afterPath="$PROJECT_DIR$/planner-users/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planner-users/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planner-users/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planner-users/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planner-users/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planner-users/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planner-users/src/main/java/com/example/plannerusers/PlannerUsersApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planner-users/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planner-users/src/test/java/com/example/plannerusers/PlannerUsersApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planner_config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/planner_config/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +40,7 @@
         <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/planner-users" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -71,19 +86,27 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/dim22/Desktop/planner",
-    "nodejs_package_manager_path": "npm"
+    "last_opened_file_path": "C:/Users/dim22/Desktop/planner/planner-utils/src/main/java/com/example/plannerutils/aop",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
       "module",
       "directory"
+    ],
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dim22\Desktop\planner" />
+      <recent name="C:\Users\dim22\Desktop\planner\planner-utils\src\main\java\com\example\plannerutils\aop" />
+      <recent name="C:\Users\dim22\Desktop\planner\planner_todo\src\main\java\com\example\planner_todo\repositories" />
+      <recent name="C:\Users\dim22\Desktop\planner\planner_todo\src\main\java\com\example\planner_todo\search" />
+      <recent name="C:\Users\dim22\Desktop\planner\planner_todo\src\main\java\com\example\planner_todo\service" />
+      <recent name="C:\Users\dim22\Desktop\planner\planner_todo\src\main\java\com\example\planner_todo\controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dim22\Desktop\planner\planner-entity\src\main\java\com\example\plannerentity\entity" />
@@ -110,7 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GithubConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="PlannerConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="planner_config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.githubconfigserver.PlannerConfigApplication" />
       <method v="2">
@@ -140,6 +164,34 @@
     <configuration name="PlannerServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="planner_server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.planner_server.PlannerServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlannerTodoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="planner-todo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.planner.todo.PlannerTodoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlannerTodoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="planner-todo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.planner_todo.PlannerTodoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlannerUsersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="planner-users" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.plannerusers.PlannerUsersApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlannerUtilsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="planner-utils" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.plannerutils.PlannerUtilsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

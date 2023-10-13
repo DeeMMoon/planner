@@ -32,6 +32,9 @@
     <module>planner_config</module>
     <module>planner_gateway</module>
     <module>planner-entity</module>
+    <module>planner-todo</module>
+    <module>planner-utils</module>
+    <module>planner-users</module>
   </modules>
 
   <build>

@@ -2,20 +2,27 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="planner_config" />
         <module name="planner-entity" />
+        <module name="planner-utils" />
+        <module name="planner_config" />
         <module name="planner_server" />
         <module name="planner_gateway" />
+        <module name="planner-users" />
+        <module name="planner-todo" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="planner-entity" options="-parameters" />
+      <module name="planner-todo" options="-parameters" />
+      <module name="planner-users" options="-parameters" />
+      <module name="planner-utils" options="-parameters" />
       <module name="planner_config" options="-parameters" />
       <module name="planner_gateway" options="-parameters" />
       <module name="planner_server" options="-parameters" />
