@@ -1,8 +1,8 @@
 package com.example.planner.todo.service;
 
-import com.example.plannerentity.entity.Category;
-import com.example.plannerentity.entity.Priority;
-import com.example.plannerentity.entity.Task;
+import com.example.planner.entity.entity.Category;
+import com.example.planner.entity.entity.Priority;
+import com.example.planner.entity.entity.Task;
 import org.springframework.stereotype.Service;
 import java.util.Calendar;
 import java.util.Date;

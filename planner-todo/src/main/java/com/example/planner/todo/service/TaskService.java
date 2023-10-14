@@ -1,7 +1,7 @@
 package com.example.planner.todo.service;
 
 import com.example.planner.todo.repositories.TaskRepository;
-import com.example.plannerentity.entity.Task;
+import com.example.planner.entity.entity.Task;
 import jakarta.transaction.Transactional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

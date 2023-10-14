@@ -1,7 +1,7 @@
 package com.example.planner.todo.service;
 
 import com.example.planner.todo.repositories.PriorityRepository;
-import com.example.plannerentity.entity.Priority;
+import com.example.planner.entity.entity.Priority;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.example.planner.todo.repositories;
 
-import com.example.plannerentity.entity.Stat;
+import com.example.planner.entity.entity.Stat;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

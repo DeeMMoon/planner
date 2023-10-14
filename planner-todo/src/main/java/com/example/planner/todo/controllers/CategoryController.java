@@ -2,8 +2,10 @@ package com.example.planner.todo.controllers;
 
 import com.example.planner.todo.search.CategorySearchValues;
 import com.example.planner.todo.service.CategoryService;
-import com.example.plannerentity.entity.Category;
-import com.example.plannerentity.entity.User;
+import com.example.planner.entity.entity.Category;
+import com.example.planner.entity.entity.User;
+import com.example.planner.utils.rest.resttemplate.UserRestBuilder;
+import com.example.planner.utils.rest.webclient.UserWebClientBuilder;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

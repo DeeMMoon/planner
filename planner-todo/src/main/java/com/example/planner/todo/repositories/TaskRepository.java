@@ -1,6 +1,6 @@
 package com.example.planner.todo.repositories;
 
-import com.example.plannerentity.entity.Task;
+import com.example.planner.entity.entity.Task;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -16,7 +16,7 @@ public interface TaskRepository extends JpaRepository<Task, Long> {
 
     @Query("SELECT t FROM Task t where " +
             "(:title is null or :title='' or lower(t.title) like lower(concat('%', :title,'%'))) and" +
-            "(:completed is null or t.completed=:completed) and " +  // учитываем, что параметр может быть null или пустым
+            "(:completed is null or t.completed=:completed) and " +
             "(:priorityId is null or t.priority.id=:priorityId) and " +
             "(:categoryId is null or t.category.id=:categoryId) and " +
             "(:categoryId is null or t.category.id=:categoryId) and " +
@@ -24,9 +24,9 @@ public interface TaskRepository extends JpaRepository<Task, Long> {
             "(cast(:dateFrom as timestamp) is null or t.taskDate>=:dateFrom) and " +
             "(cast(:dateTo as timestamp) is null or t.taskDate<=:dateTo)" +
             ") and " +
-            "(t.userId=:userId)" // показывать задачи только определенного пользователя, а не все
+            "(t.userId=:userId)"
     )
-        // искать по всем переданным параметрам (пустые параметры учитываться не будут)
+
     Page<Task> findByParams(@Param("title") String title,
                             @Param("completed") Boolean completed,
                             @Param("priorityId") Long priorityId,
@@ -37,8 +37,6 @@ public interface TaskRepository extends JpaRepository<Task, Long> {
                             Pageable pageable
     );
 
-
-    // поиск всех задач конкретного пользователя
     List<Task> findByUserIdOrderByTitleAsc(Long userId);
 
 
